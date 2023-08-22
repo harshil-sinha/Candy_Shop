@@ -19,7 +19,7 @@ const Header=(props)=>{
                 <div className="row">
                 <button className="btn btn-success" onClick={props.onDisplay}>
                     <span>Cart</span>
-                    <span>({number})</span>
+                    <span class="badge bg-primary">({number})</span>
                 </button>
                 </div>
             </div>
