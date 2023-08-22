@@ -16,6 +16,7 @@ const Header=(props)=>{
     return(
         <>
             <div className="container">
+                <h2>Candy Shop</h2>
                 <div className="row">
                 <button className="btn btn-success" onClick={props.onDisplay}>
                     <span>Cart</span>
